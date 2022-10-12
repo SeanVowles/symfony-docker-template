@@ -38,9 +38,9 @@ to set your account's default identity
 
 Now we can install Symfony
 
-* Get the symfony cli installed on the container using curl
-* mv the symfony cli to the /usr directory (make it globally available)
-* install symfony ... This example will go for the minimal install
+* Get the symfony binary (cli) installed on the container using curl
+* mv the symfony binary to the /usr directory (make it globally available)
+* install symfony ... This example will go for the minimal install. For more options go to the [symfony docs](https://symfony.com/doc/current/setup.html, "The symfony installation docs")
 
 ```
 curl -sS https://get.symfony.com/cli/installer | bash
